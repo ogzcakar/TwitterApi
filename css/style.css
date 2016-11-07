@@ -124,6 +124,7 @@ input , select, #season , #server{
 
 select{
     margin-top:0.5em;
+    border:1px solid #0096b2;
 }
 
 input[type=submit] , input[type=button]{
