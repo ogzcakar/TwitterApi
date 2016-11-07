@@ -1,0 +1,220 @@
+body {
+    margin: 24px;
+    background: #f0f0f0;
+    color: #505050;
+}
+
+a , span {
+    color:#000;
+}
+
+.container{
+    position: relative;
+    width:960px;
+    margin:0 auto;
+}
+
+header{
+    border-bottom:5px solid #0096b2
+}
+
+hr{
+    border-bottom:5px solid #0096b2
+}
+
+.title{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0096b2;
+    color: #fff;
+    width: 190px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.title:hover{
+    background-color: #00b1d1;
+}
+
+
+#logo{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#logo h2{
+    font-size: 25px;
+}
+
+nav{
+    margin-top:1em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+nav ul li{
+    display:inline;
+    margin-left:10px;
+    background-color: #0096b2;
+    padding:0.5em;
+    position: relative;
+}
+
+nav ul li:hover{
+    background-color: #00b1d1;
+}
+
+nav ul li a{
+    color:#fff;
+}
+
+#tweet , #message{
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 5em;
+    max-height: 5em;
+    border:1px solid #00b1d1;
+}
+
+#resultTweet,#resultMessage{
+    float: right;
+}
+
+.data , #leftColumn , #rightColumn {
+    display: block;
+    margin: 0 0 30px 0;
+    padding: 12px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    transition: all 220ms;
+}
+
+#leftColumn{
+    width: 30%;
+    float: left;
+}
+
+#leftColumn h6 {
+    margin-left:60px;
+    margin-bottom:10px;
+    color: #ff0000;
+}
+
+#profileImage{
+    float:left;
+}
+
+#rightColumn{
+    margin-left: 15px;
+    width: 60%;
+    float: left;
+}
+
+form{
+    text-align: center;
+}
+
+input , select, #season , #server{
+    padding:0.6em;
+    margin-right: 0.3em;
+}
+
+select{
+    margin-top:0.5em;
+}
+
+input[type=submit] , input[type=button]{
+    background-color: #0096b2;
+    color: #fff;
+    cursor: pointer;
+    transition: all 220ms;
+}
+
+input[type=button]{
+    float:left;
+}
+
+input[type=submit]:hover , input[type=button]:hover{
+    background-color: #fff;
+    color: #0096b2;
+    border: 1px solid #0096b2;
+    transition: all 220ms;
+}
+
+.data:hover , #leftColumn:hover , #rightColumn:hover {
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    border: 3px solid #0096b2;
+    transition: all 220ms;
+}
+.data > img , #leftColumn img {
+    display: block;
+    margin: 0 0 24px 0;
+}
+
+.data > img , #profileBanner {
+    width: 100%;
+}
+
+.data h3 , #leftColumn h3 , #rightColumn h3 {
+    font-size: 14px;
+    margin:12px 0 12px 0;
+    color: #ff0000;
+    text-align: center;
+}
+
+#rightColumn span{
+    font-size: 14px;
+}
+
+#rightColumn h6{
+    color:#ff0000;
+}
+
+
+.wall {
+    display: block;
+    position: relative;
+    margin-top:1em;
+    color: #000000;
+}
+.wall-column {
+    display: block;
+    position: relative;
+    width: 33.333333%;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+.wall-column:first-child {
+    padding-right: 12px;
+}
+.wall-column ~ .wall-column {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.wall-column:last-of-type {
+    padding-right: 0;
+}
+@media (max-width: 640px) {
+    .wall-column {
+        width: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .wall-column {
+        width: auto;
+        float: none;
+        padding: 0;
+    }
+}
+
+#userImage{
+    width:48px;
+    float:left;
+}
+

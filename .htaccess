@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^index$  index.php [L,QSA]
+RewriteRule ^profile$  profile.php [L,QSA]
+RewriteRule ^followers$  followers.php [L,QSA]
+RewriteRule ^friends$  friends.php [L,QSA]
+RewriteRule ^logout$  logout.php [L,QSA]
+
+
